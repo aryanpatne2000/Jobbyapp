@@ -1,0 +1,202 @@
+.gohomeicon {
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .backgnd-Home {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+
+  
+  .wesite-logo {
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .heading {
+    color: #f8fafc;
+    font-size: 26px;
+    font-family: 'Roboto';
+    margin-left: 18px;
+    font-weight: bold;
+  }
+  
+  .discription {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .findjobs {
+    background-color: #6366f1;
+    height: 25px;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 14px;
+    width: 70px;
+    cursor: pointer;
+  }
+  
+
+  /* Left Section: Logo & Brand */
+
+  
+  .logo {
+    height: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+
+  
+  /* Center Section: Navigation Links */
+
+  
+  .logout-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+
+  }
+  
+
+  @media screen and (min-width:576px){
+
+
+   
+    
+
+    .heading {
+      color: #f8fafc;
+      font-size: 40px;
+      font-family: 'Roboto';
+      margin-left: 18px;
+      font-weight: bold;
+    }
+    
+    .discription {
+      color: #cbd5e1;
+      font-family: 'Roboto';
+      margin: 15px;
+      font-size: 30px;
+      font-weight: 400;
+    }
+    
+    .findjobs {
+      background-color: #6366f1;
+      height: 25px;
+      border-style: none;
+      border-radius: 5px;
+      color: #ffffff;
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 25px;
+      margin-left: 14px;
+      width: 70px;
+      cursor: pointer;
+    }
+    
+
+    .findjobs {
+      background-color: #6366f1;
+      height: 35px;
+      border-style: none;
+      border-radius: 5px;
+      color: #ffffff;
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 15px;
+      margin-left: 14px;
+      width: 120px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+
+  }
+
+
+  @media screen and (min-width: 768px) {
+  
+  
+    .backgnd-Home {
+     
+      background-size: cover;
+      min-height: 100vh;
+    }
+
+    .home-content{
+      display: flex;
+      flex-direction: column;
+     margin-top: 50px;
+      height: 100vh;
+    }
+
+.heading{
+  font-size: 60px;
+}
+
+
+.discription {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin: 19px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.findjobs {
+  background-color: #6366f1;
+  height: 35px;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 19px;
+  margin-top: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+
+
+  }
+  
+ 
+  @media screen and (min-width:1200px){
+
+    .findjobs {
+      background-color: #6366f1;
+      height: 40px;
+      border-style: none;
+      border-radius: 5px;
+      color: #ffffff;
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 18px;
+      margin-left: 14px;
+      width: 120px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+
+  }

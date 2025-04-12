@@ -1,0 +1,230 @@
+
+
+
+.sidebar {
+  margin: 0px;
+  padding: 0 !important;
+    border-radius: 10px;
+  
+  
+  }
+  
+  .profile-cardd {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+ 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 23px;
+    min-height: 100px;
+    width: 85%;
+
+  }
+
+  .profile-name {
+    color: #6366f1;
+    margin: 5px 0;
+  }
+
+  .profile-name {
+    color: #4f46e5;
+    font-family: 'Roboto';
+  }
+
+  .profile-para {
+    color: #7e858e;
+    font-family: 'Roboto';
+  }
+
+  .horizontal {
+    border-color: #475569;
+    border-style: solid;
+  }
+
+  
+.typeofemployement{
+
+list-style-type: none;
+
+}
+
+
+.salaryRange{
+  list-style-type: none;
+}
+
+.filters h3 {
+  color: #f8fafc;
+  margin-top: 20px;
+  font-family: 'Roboto';
+padding-left: 20px;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .profile-cardd {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+ 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 23px;
+    min-height: 100px;
+    width: 92%
+  }
+
+ 
+
+  .profile-name {
+    color: #4f46e5;
+    font-family: 'Roboto';
+    margin: 5px 0;
+  }
+
+  .profile-para {
+    color: #7e858e;
+    font-family: 'Roboto';
+    font-size: 20px;
+  }
+
+
+  .filters h3 {
+    color: #f8fafc;
+    margin-top: 20px;
+    font-family: 'Roboto';
+ padding-left: 20px;
+  }
+
+
+}
+
+
+  @media screen and (min-width: 768px) {
+    .profile-cardd {
+        background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+        background-size: cover;
+        text-align: left;
+        padding: 10px;
+        font-family: 'Roboto';
+        color: #f8fafc;
+        width: 210px;
+      
+        height: 180px;
+
+       margin-right: 20px;
+      }
+
+
+      .profile{
+
+        height: 50px;
+      }
+
+.profile-name{
+  font-size: 20px;
+}
+
+.profile-para{
+  font-size: 15px;
+}
+
+
+      .filters h3 {
+        color: #f8fafc;
+        margin-top: 20px;
+        font-family: 'Roboto';
+     padding-left: 10px;
+      }
+    
+      .filters ul {
+        list-style: none;
+        padding: 0;
+      }
+    
+      .filters li {
+        margin: 5px;
+        font-family: 'Roboto';
+        color: #f8fafc;
+      }
+
+   
+  }
+
+  @media screen and (min-width: 992px){
+
+    .profile-cardd {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+      background-size: cover;
+      text-align: left;
+      padding: 10px;
+      font-family: 'Roboto';
+      color: #f8fafc;
+      width: 290px;
+    
+      height: 180px;
+
+     margin-right: 20px;
+    }
+
+
+    .profile{
+
+      height: 60px;
+      
+    }
+
+.profile-name{
+font-size: 25px;
+
+padding-top: 7px;
+}
+
+.profile-para{
+  font-size: 18px;
+}
+
+
+  }
+
+
+  @media screen and (min-width: 1200px) {
+
+    .profile-cardd {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+      background-size: cover;
+      text-align: left;
+      padding: 10px;
+      font-family: 'Roboto';
+      color: #f8fafc;
+      width: 350px;
+    
+      height: 180px;
+
+     margin-right: 20px;
+    }
+
+
+    .profile{
+
+      height: 65px;
+      
+    }
+
+.profile-name{
+font-size: 26px;
+
+padding-top: 7px;
+}
+
+.profile-para{
+  font-size: 18px;
+}
+
+
+  }

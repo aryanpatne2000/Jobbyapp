@@ -1,0 +1,79 @@
+.gohomeicon {
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    background-color: #272727;
+    min-height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wesite-logo {
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-large {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    padding: 10px;
+    height: 60px;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .nav-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    color: #f8fafc;
+    text-decoration: none;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-large {
+      display: none;
+    }
+  }
+  

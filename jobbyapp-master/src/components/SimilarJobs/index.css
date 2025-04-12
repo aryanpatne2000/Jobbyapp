@@ -1,0 +1,179 @@
+.similar-jobs {
+  width: 90%;
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.similar-job-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.similar-company-logo {
+  height: 50px;
+}
+
+.similar-job-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.similar-job-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.similar-rating {
+  display: flex;
+  align-items: center;
+  color: gold;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.similar-star {
+  color: #fbbf24;
+}
+
+.similar-job-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.similar-main-conatiner-of-icons {
+  display: flex;
+}
+
+.similar-loaction-conatiner {
+  display: flex;
+  margin: 5px;
+}
+
+.similar-location-para {
+  padding-left: 5px;
+}
+
+.similar-briefcase-conatiner {
+  display: flex;
+  margin-left: 10px;
+}
+
+.similar-briefcase-para {
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+.similar-description-heading {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.similar-job-description {
+  font-size: 14px;
+  color: #bbb;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .similar-jobs {
+    width: 90%;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .similar-job-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .similar-company-logo {
+    height: 70px;
+  }
+
+  .similar-job-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .similar-job-title {
+    font-size: 23px;
+    margin: 0;
+  }
+
+  .similar-rating {
+    display: flex;
+    align-items: center;
+    color: gold;
+    font-size: 18px;
+    gap: 5px;
+  }
+
+  .similar-star {
+    color: #fbbf24;
+  }
+
+  .similar-job-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .similar-main-conatiner-of-icons {
+    display: flex;
+  }
+
+  .similar-loaction-conatiner {
+    display: flex;
+    margin: 5px;
+  }
+
+  .similar-jobs-loaction-icon {
+    margin-top: 20px;
+  }
+
+  .similar-location-para {
+    padding-left: 5px;
+    font-size: 18px;
+  }
+
+  .similar-briefcase-conatiner {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .similar-jobs-briefcase-icon {
+    margin-top: 23px;
+  }
+
+  .similar-briefcase-para {
+    padding-left: 10px;
+    padding-top: 4px;
+    font-size: 18px;
+  }
+
+  .similar-description-heading {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .similar-job-description {
+    font-size: 17px;
+    color: #bbb;
+  }
+}

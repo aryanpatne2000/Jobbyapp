@@ -1,0 +1,70 @@
+.lifeatcompanydiv {
+    display: flex;
+    flex-direction: row; /* Makes the text and image appear side by side */
+    align-items: flex-start; /* Aligns the items at the top */
+    justify-content: space-between; /* Ensures there’s space between text and image */
+    margin: 20px 0;
+  }
+  
+  .lifeatcompanyheading-para {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allows the text part to take up available space */
+    padding-right: 20px; /* Adds space between the text and the image */
+  }
+  
+  .LifeatCompanyheading {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .job-description {
+    font-size: 16px;
+    color: #bbb; /* Lighter text color for better readability */
+    line-height: 1.6;
+  }
+  
+  .office-pic {
+    width: 40%;
+    height: auto;
+    max-height: 240px;
+    object-fit: cover;
+    border-radius: 10px; /* Adds rounded corners to the image */
+  }
+  
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .lifeatcompanydiv {
+      flex-direction: column; /* Stacks the text and image vertically on smaller screens */
+      align-items: center; /* Centers the content */
+      margin: 15px 0;
+    }
+  
+    .lifeatcompanyheading-para {
+      align-items: center;
+      text-align: center; /* Centers the text on small screens */
+      padding-right: 0; /* Removes right padding for better alignment */
+    }
+  
+    .office-pic {
+      width: 100%; /* Ensures the image takes up full width on small screens */
+      height: 200px; /* Fixes the height on mobile */
+      margin-top: 20px; /* Adds space between text and image */
+    }
+  
+    .LifeatCompanyheading {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .job-description {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  
